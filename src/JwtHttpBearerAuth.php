@@ -1,6 +1,6 @@
 <?php
 
-namespace kaabar\jwt;
+namespace yawaweb\jwt;
 
 use yii\di\Instance;
 use yii\filters\auth\AuthMethod;
@@ -15,7 +15,7 @@ use yii\filters\auth\AuthMethod;
  * {
  *     return [
  *         'bearerAuth' => [
- *             'class' => \kaabar\jwt\JwtHttpBearerAuth::className(),
+ *             'class' => \yawaweb\jwt\JwtHttpBearerAuth::className(),
  *         ],
  *     ];
  * }

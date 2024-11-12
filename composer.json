@@ -1,23 +1,23 @@
 {
-    "name": "kaabar-jwt/yii2-jwt",
-    "description": "The Yii2 JWT extension is a tool for implementing JWT (JSON Web Token) authentication in Yii2 applications. It allows developers to create APIs that require authentication and authorization, ensuring that only authorized users can access certain resources. The extension provides a simple and flexible way to implement JWT authentication in Yii2, using the JWT library and following the JWT specification. It includes support for creating and verifying JWT tokens, as well as handling token expiration and refresh. The Yii2 JWT extension can be easily integrated into any Yii2 application, making it a powerful tool for API authentication and authorization.",
+    "name": "yawaweb/yii2-jwt",
+    "description": "The Yii2 JWT extension enables JWT authentication in Yii2 applications. It simplifies API authentication by creating and verifying JWT tokens, handling expiration, and supporting token refresh for secure access control.",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
     "license": "MIT",
-	"minimum-stability": "dev",
+    "minimum-stability": "dev",
     "authors": [
         {
-            "name": "Chetan Patel",
-            "email": "cpjeslot@gmail.com"
+            "name": "Ousama Yamine",
+            "email": "hello@yawaweb.com"
         }
     ],
     "require": {
         "yiisoft/yii2": "~2.0.0",
-		"lcobucci/jwt": "^4.0"
-	},
+        "lcobucci/jwt": "^4.0"
+    },
     "autoload": {
         "psr-4": {
-            "kaabar\\jwt\\": "src/"
+            "yawaweb\\jwt\\": "src/"
         }
     }
 }

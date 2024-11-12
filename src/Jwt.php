@@ -1,6 +1,6 @@
 <?php
 
-namespace kaabar\jwt;
+namespace yawaweb\jwt;
 
 use DateTimeImmutable;
 use Lcobucci\Clock\Clock;
