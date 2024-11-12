@@ -12,8 +12,8 @@ class m000000_000001_create_user_refresh_tokens_table extends Migration
     public function safeUp()
     {
         $this->createTable('{{%user_refresh_tokens}}', [
-            'id' => $this->primaryKey()->unsigned()->notNull(),
-            'user_id' => $this->integer(10)->unsigned()->notNull(),
+            'id' => $this->primaryKey(),
+            'user_id' => $this->integer()->notNull(),
             'token' => $this->string(1000)->notNull(),
             'ip' => $this->string(50)->notNull(),
             'user_agent' => $this->string(1000)->notNull(),
