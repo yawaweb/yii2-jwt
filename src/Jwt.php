@@ -1,6 +1,6 @@
 <?php
 
-namespace yawaweb\jwt;
+namespace yawaweb\yii2\jwt;
 
 use DateTimeImmutable;
 use Lcobucci\Clock\Clock;

@@ -1,6 +1,6 @@
 <?php
 
-namespace yawaweb\jwt;
+namespace yawaweb\yii2\jwt;
 
 use yii\di\Instance;
 use yii\filters\auth\AuthMethod;

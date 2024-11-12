@@ -1,6 +1,6 @@
 <?php
 
-namespace yawaweb\jwt\migrations;
+namespace yawaweb\yii2\jwt\migrations;
 
 use yii\db\Migration;
 

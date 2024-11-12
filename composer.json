@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "yawaweb\\jwt\\": "src/"
+            "yawaweb\\yii2\\jwt\\": "src/"
         }
     }
 }
